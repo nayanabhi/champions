@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity5">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Fill your choices"
+        android:id="@+id/fill_choices"
+        android:textSize="34dp"
+        app:layout_constraintTop_toTopOf="parent"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Name of College"
+        android:textSize="29dp"
+        android:id="@+id/college_name"
+        app:layout_constraintTop_toBottomOf="@id/fill_choices"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Branch"
+        android:textSize="29dp"
+        android:id="@+id/branch"
+        app:layout_constraintTop_toBottomOf="@id/college_name"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Your Query"
+        android:textSize="29dp"
+        android:id="@+id/query"
+        app:layout_constraintTop_toBottomOf="@id/branch"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:id="@+id/sub2"
+        app:layout_constraintTop_toBottomOf="@id/query"/>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
