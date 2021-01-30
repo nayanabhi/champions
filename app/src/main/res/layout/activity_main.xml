@@ -25,6 +25,14 @@
         android:id="@+id/business"
         app:layout_constraintTop_toBottomOf="@id/champ"/>
     <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Thank You for visiting"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:textSize="35dp"
+        android:gravity="center"/>
+"
+    <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Advisor"
